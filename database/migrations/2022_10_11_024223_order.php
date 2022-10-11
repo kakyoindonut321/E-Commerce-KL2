@@ -14,7 +14,9 @@ return new class extends Migration
     public function up()
     {
         Schema::create('order', function (Blueprint $table) {
+            $table->foreignId('user_id');
             $table->foreignId('product_id');
+            $table->string('status');
             $table->timestamp('created_at')->nullable();
             $table->timestamp('updated_at')->nullable();
         });
@@ -27,6 +29,6 @@ return new class extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('product');
     }
 };
