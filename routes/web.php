@@ -14,5 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('test');
+    return view('testp');
 });
+
+Route::get('/test/test2/test2p', [testOne::class, 'testFunction']);

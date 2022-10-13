@@ -70,6 +70,10 @@ hr:not([size]) {
     height: 1px;
 }
 
+.fa-solid {
+    color: rgb(133, 243, 133);
+}
+
 h6,
 .h6,
 h5,
