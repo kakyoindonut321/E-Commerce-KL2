@@ -1,8 +1,6 @@
 <h1>E-Commerce</h1>
 <img src="https://raw.githubusercontent.com/kakyoindonut321/E-Commerce-KL2/main/design/KLMPK2%20Shop%20logo%20green.png" alt="Girl in a jacket" width="100">
 
-
-<p>project E-Commerce</p>
 <h4>Anggota<h4>
 <p>Hannan: Project Manager</p>
 <p>Febri: designer</p>
