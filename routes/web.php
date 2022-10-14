@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\testOne;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('testp');
+    return view('test2');
 });
 
-Route::get('/test/test2/test2p', [testOne::class, 'testFunction']);
+// Route::get('/test/test2/test2p', [testOne::class, 'testFunction']);
