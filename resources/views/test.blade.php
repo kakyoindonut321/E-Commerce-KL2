@@ -58,16 +58,16 @@
           
 
           {{-- slider --}}
-          <div id="slider" class="carousel slide border " data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="{{ URL::to('/image/iklan/iklan.png') }}" class="d-block w-75" alt="Wild Landscape">
+          <div id="slider" class="carousel slide border w-75 mx-5" data-bs-ride="carousel">
+            <div class="carousel-inner ">
+                <div class="carousel-item bg-dark active">
+                    <img src="{{ URL::to('/image/iklan/iklan.png') }}" class="d-block w-100" alt="1">
                 </div>
-                <div class="carousel-item ">
-                    <img src="{{ URL::to('/image/iklan/iklan2.png') }}" class="d-block w-75" alt="Camera">
+                <div class="carousel-item bg-dark">
+                    <img src="{{ URL::to('/image/iklan/iklan2.png') }}" class="d-block w-100" alt="2">
                 </div>
-                <div class="carousel-item ">
-                    <img src="{{ URL::to('/image/iklan/iklan3.png') }}" class="d-block w-75" alt="Exotic Fruits">
+                <div class="carousel-item bg-dark">
+                    <img src="{{ URL::to('/image/iklan/iklan3.png') }}" class="d-block w-100" alt="3">
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
